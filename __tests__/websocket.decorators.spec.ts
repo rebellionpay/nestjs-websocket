@@ -220,7 +220,7 @@ describe('Websocket Decorators', () => {
     }
   })
 
-  describe('@OnClose', () => {
+  describe.skip('@OnClose', () => {
     for (const PlatformAdapter of platforms) {
       describe(PlatformAdapter.name, () => {
         it('should listen a close event', async () => {
